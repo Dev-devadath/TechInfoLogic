@@ -4499,6 +4499,14 @@ fieldset:disabled .btn {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  display: flex;
+  align-items: center; /* Center-aligns text with image */
+}
+
+.logo-img {
+  height: 50px; /* Adjust height as needed */
+  width: auto; /* Maintains image aspect ratio */
+  margin-right: 0.5rem; /* Adds space between image and text */
 }
 
 .navbar-nav {
